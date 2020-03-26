@@ -1,0 +1,19 @@
+{
+  "name": "react-native-css-vh-vw",
+  "version": "1.0.0",
+  "description": "Ditto of CSS vh and vw for React Native.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graftonstudio/react-native-css-vh-vw.git"
+  },
+  "author": "Grafton Studio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/graftonstudio/react-native-css-vh-vw/issues"
+  },
+  "homepage": "https://github.com/graftonstudio/react-native-css-vh-vw#readme"
+}
