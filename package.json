@@ -1,6 +1,6 @@
 {
   "name": "react-native-css-vh-vw",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ditto of CSS vh and vw for React Native.",
   "main": "index.js",
   "scripts": {
