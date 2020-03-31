@@ -9,3 +9,50 @@ viewport width or height.
 ## Dependencies
 `react-native-css-vh-vw` itself has no dependencies, but it _must_ be used within a
 React Native project. The only React Native API that it relies on is [`Dimensions`](https://reactnative.dev/docs/dimensions), which has support all the way back to React Native's [first release](https://reactnative.dev/docs/0.5/dimensions).
+
+## Usage
+
+- Using `vh()` and `vw()` to set dimensions of `<View>`:
+Component:
+```javascript
+const VhVwDemo = (props) => {
+
+  return (
+    <View style={{
+      height: vh(60),
+      width: vw(50),
+      backgroundColor: 'blue',
+      justifyContent: 'center',
+      alignItems: 'center'
+    }}>
+      <Text style={{ color: 'white' }}>height: vh(60)</Text>
+      <Text style={{ color: 'white' }}>width: vh(50)</Text>
+    </View>
+  );
+}
+
+export default VhVwDemo;
+```
+
+Output: 
+![vh() and vw() <View> example](https://github.com/graftonstudio/react-native-css-vh-vw/blob/master/assets/vh-vw-demo-view.png "vh() and vw() <View> example")
+
+
+
+- Using `vh()` and `vw()` to set dimensions of `<Text>`:
+```javascript
+const VhVwDemo = (props) => {
+
+  return (
+    <View style={{ justifyContent: 'center', alignItems: 'center' }}>
+      <Text style={{ fontSize: vw(10) }}>fontSize: vw(10)</Text>
+      <Text style={{ fontSize: vh(5) }}>fontSize: vh(5)</Text>
+    </View>
+  );
+}
+
+export default VhVwDemo;
+```
+
+Output: 
+![vh() and vw() <Text> example](https://github.com/graftonstudio/react-native-css-vh-vw/blob/master/assets/vh-vw-demo-text.png "vh() and vw() <Text> example")
