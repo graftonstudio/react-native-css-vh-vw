@@ -12,6 +12,12 @@ React Native project. The only React Native API that it relies on is [`Dimension
 
 ## Usage
 
+Simply pass a value between 1 and 1000 to `vh()` or `vw()`.
+
+50% of your device's viewport height: `vh(50)`.
+
+33.3% of your device's viewport width: `vw(33.3)`.
+
 - Using `vh()` and `vw()` to set dimensions of `<View>`:
 Component:
 ```javascript
