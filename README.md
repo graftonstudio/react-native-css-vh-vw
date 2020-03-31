@@ -43,6 +43,7 @@ export default VhVwDemo;
 ```
 
 Output: 
+---
 ![vh() and vw() <View> example](https://github.com/graftonstudio/react-native-css-vh-vw/blob/master/assets/vh-vw-demo-view.png "vh() and vw() <View> example")
 
 
@@ -63,4 +64,5 @@ export default VhVwDemo;
 ```
 
 Output: 
+---
 ![vh() and vw() <Text> example](https://github.com/graftonstudio/react-native-css-vh-vw/blob/master/assets/vh-vw-demo-text.png "vh() and vw() <Text> example")
