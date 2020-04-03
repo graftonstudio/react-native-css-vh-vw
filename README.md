@@ -43,7 +43,7 @@ export default VhVwDemo;
 ```
 
 Output:  
-![vh() and vw() <View> example](https://github.com/graftonstudio/react-native-css-vh-vw/blob/master/assets/vh-vw-demo-view.png "vh() and vw() <View> example")
+![vh() and vw() <View> example](https://res.cloudinary.com/munsch-creative/image/upload/v1585928961/vh-vw-demo-view_jwpva3.png "vh() and vw() <View> example")
 
 
 
@@ -63,4 +63,4 @@ export default VhVwDemo;
 ```
 
 Output:  
-![vh() and vw() <Text> example](https://github.com/graftonstudio/react-native-css-vh-vw/blob/master/assets/vh-vw-demo-text.png "vh() and vw() <Text> example")
+![vh() and vw() <Text> example](https://res.cloudinary.com/munsch-creative/image/upload/v1585928966/vh-vw-demo-text_uua0n9.png "vh() and vw() <Text> example")
