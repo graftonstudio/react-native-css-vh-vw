@@ -1,6 +1,6 @@
 {
   "name": "react-native-css-vh-vw",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Ditto of CSS vh and vw for React Native.",
   "main": "src/index.js",
   "scripts": {
@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/graftonstudio/react-native-css-vh-vw/issues"
   },
-  "homepage": "https://github.com/graftonstudio/react-native-css-vh-vw#readme"
+  "homepage": "https://github.com/graftonstudio/react-native-css-vh-vw#readme",
+  "keywords": [
+    "react native",
+    "component",
+    "css",
+    "react native css",
+    "react native css vh vw",
+    "react native viewport",
+    "react native viewport units",
+    "react native viewport height",
+    "react native viewport width"
+  ]
 }
